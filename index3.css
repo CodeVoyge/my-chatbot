@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    color: white;
+    font-family: 'Gg Sans' , sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: #2327a;
+    
+}
+.brand{
+    font-size: 20px;
+  color : #FFFFFF;
+  font-weight: 550;
+  font-style: 'Gg sans' , sans-serif;
+}
+
+.left,.right,.center{
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  justify-content: flex-end;
+  gap: 100px;
+}
+
+.center{
+    justify-content: center;
+    gap: 10px;
+    flex: 2;
+
+}
+
+  
+  .left{
+    justify-content: flex-start;
+    flex: start;
+    gap: 10px;
+
+}
+
+
+.topLink{
+    cursor: pointer;
+    color:  white;
+    padding: 8px 16px;
+    border-radius: 999px;
+    transition: background 0.3s ease ,color 0.3s ease;
+    font-weight: 500;
+}
+
+.topLink:hover {
+    color: white;
+    background-color: rgba(255,255, 255, 0.13);
+}
+
+.loginBtn{
+    background-color: white;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero {
+  background: radial-gradient(
+    at 20% 20%,
+    #7289da 0%,
+    #5865f2 30%,
+    #404eed 70%,
+    #2b2d31 100%
+  );
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+  
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.hero-button {
+  background-color: #0074ff;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+}
