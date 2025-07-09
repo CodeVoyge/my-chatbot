@@ -1,43 +1,22 @@
-MY-CHATBOT
-A clean, responsive chatbot built with HTML, CSS, and JavaScript, powered by the Gemini API.
-Includes emoji picker, file upload preview, and smooth animations.
+# MY CHATBOT
+A simple, modern chatbot web interface built with HTML, CSS, and JavaScript.
 
- Features
-Modern chat interface
+## Features
+- Floating chat icon to open/close the chatbot
+- Send text messages
+- Add emojis with emoji picker
+- Upload and preview images before sending
+- Shows typing indicator
+- Connects to Google Gemini API to get chatbot responses
+- Responsive design: chat bubble on desktop, full screen on mobile
 
-Emoji picker support
+## Built With
+- HTML, CSS, JavaScript
+- Emoji Mart for emoji picker
+- Material Symbols from Google Fonts
 
-File/image upload preview
+## Usage
+Open `index.html` in your browser.
 
-Typing indicator animation
-
-Responsive design for desktop & mobile
-
- Setup
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/your-repo-name.git
-Add your Gemini API key in script.js:
-
-js
-Copy
-Edit
-const API_KEY = "YOUR_API_KEY_HERE";
-Open index.html in your browser.
-
- Files
-index.html – Chatbot structure
-
-index4.css – Styles and animations
-
-script.js – Chat logic & API integration
-
-📱 Usage
-Click the chat icon to open/close the chatbot
-
-Type a message or add an emoji
-
-Upload an image to preview before sending
+## Note
+Replace the placeholder API key with your own Google Gemini API key.
